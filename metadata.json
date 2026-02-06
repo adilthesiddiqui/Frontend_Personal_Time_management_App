@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Personal Time Management _Adil one",
+  "description": "An intelligent personal assistant to manage your schedule, tasks, and deadlines using AI to organize messy inputs into structured checklists and timelines.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
