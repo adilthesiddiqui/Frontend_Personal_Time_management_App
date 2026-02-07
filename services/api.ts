@@ -1,5 +1,5 @@
-
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = process.env.API_BASE_URL || 'http://localhost:8000';
+// const API_BASE_URL = 'http://localhost:8000';
 
 export const getAuthToken = () => localStorage.getItem('uae_admin_token');
 export const setAuthToken = (token: string) => localStorage.setItem('uae_admin_token', token);
